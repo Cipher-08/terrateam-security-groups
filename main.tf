@@ -11,7 +11,7 @@ terraform {
   }
 }
 
-resource "aws_s3_bucket" "terrateam_bucket_03" {
+resource "aws_s3_bucket" "terrateam_bucket_031" {
   bucket = "s03-tf-bucket"
   acl    = "private"
 }
