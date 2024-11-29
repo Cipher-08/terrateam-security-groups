@@ -3,6 +3,6 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "terrateam_bucket_03" {
-  bucket = "s03-tf-bucket"
+  bucket = "s03-tf-bucket-83"
   acl    = "public-read"
 }
