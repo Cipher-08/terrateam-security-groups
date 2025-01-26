@@ -4,6 +4,7 @@ hooks:
       - type: oidc
         provider: aws
         role_arn: "arn:aws:iam::017777978390:role/terrateam"
-workflows:
-  - tag_query: dev
-    lock_policy: none
+destination_branches:
+  - branch: "release/*"
+  - branch: "main"
+    source_branches: ["hotfix/*"]
